@@ -1,0 +1,687 @@
+a, a:hover {
+    color: #555555;
+    outline: medium none;
+    text-decoration: none;
+}
+
+
+.avatar img {
+    border-radius: 100px;
+    height: 150px;
+    overflow: hidden;
+    width: 150px;
+}
+
+ul, ol, li {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.fix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+
+.tabbox {
+    width: 100%;
+}
+.listmenu {
+    background: #f4f4f4 none repeat scroll 0 0;
+    height: 70px;
+    margin: 0 auto;
+}
+.listmenu ul {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1000px;
+}
+.listmenu li {
+    border: 1px solid #2596cd;
+    color: #2596cd;
+    cursor: pointer;
+    float: left;
+    font-size: 20px;
+    height: 66px;
+    line-height: 66px;
+    overflow: hidden;
+    text-align: center;
+    width: 498px;
+}
+.listmenu li.off {
+    background: #2596cd none repeat scroll 0 0;
+    color: #fff;
+}
+.listbox {
+    margin: 0 auto;
+    width: 1000px;
+}
+.masterlist {
+    margin-top: 50px;
+}
+.masterlist p.listimg {
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    width: 160px;
+}
+.masterlist p.listimg a {
+    cursor: pointer;
+}
+.mastertxt {
+    float: right;
+    margin-top: 5px;
+    width: 790px;
+}
+.mastertxt dt {
+    font-size: 26px;
+    position: relative;
+}
+.mastertxt h2 a {
+    color: #2596cd;
+    cursor: pointer;
+    font-size: 26px;
+}
+.mastertxt h2 .green {
+    border: 1px solid #66b21d;
+    border-radius: 2px;
+    color: #66b21d;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 8px;
+    padding: 2px 8px;
+    vertical-align: middle;
+}
+.mastertxt h2 .reds {
+    border: 1px solid #e84f4f;
+    border-radius: 2px;
+    color: #e84f4f;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 8px;
+    padding: 2px 8px;
+    vertical-align: middle;
+}
+.mastertxt li {
+    color: #555;
+    float: left;
+    font-size: 14px;
+    margin: 5px 30px 12px 0;
+}
+.mastertxt li span {
+    display: inline-block;
+    height: 14px;
+    margin-right: 8px;
+    width: 16px;
+}
+.mastertxt dd a {
+    color: #777;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 22px;
+}
+.listbottom {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+    padding: 20px 0 20px 20px;
+}
+.listbottom div.audio {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 2px;
+    float: left;
+    height: 28px;
+    margin-right: 40px;
+    padding-bottom: 12px;
+    position: relative;
+    width: 404px;
+}
+.listbottom div.audio span {
+    display: inline-block;
+    left: 10px;
+    position: absolute;
+    top: 11px;
+}
+.listbottom div.audio object {
+    left: 105px;
+    position: absolute;
+    top: 10px;
+}
+.listbottom a.details {
+    background: #2596cd none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 146px;
+}
+.listbox a.more {
+    background: #ff6600 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    height: 46px;
+    line-height: 46px;
+    margin: 0 auto 50px;
+    text-align: center;
+    width: 230px;
+}
+.banner {
+    background: rgba(0, 0, 0, 0) url("../images/teachers-banner.jpg") no-repeat scroll center 0;
+    height: 300px;
+    min-width: 1000px;
+}
+.teachers {
+    margin: 50px auto;
+}
+.leftTeachers {
+    float: left;
+    width: 710px;
+}
+.introduce-h2 {
+    color: #333;
+    font-size: 26px;
+}
+.leftTeachers .introduce h2 span.green {
+    border: 1px solid #66b21d;
+    border-radius: 2px;
+    color: #66b21d;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 2px 8px;
+    vertical-align: middle;
+}
+.leftTeachers .introduce h2 span.red {
+    border: 1px solid #e84f4f;
+    border-radius: 2px;
+    color: #e84f4f;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 2px 8px;
+    vertical-align: middle;
+}
+.headaudio {
+    background: #f5f5f5 none repeat scroll 0 0;
+    margin-top: 15px;
+    padding: 8px 0 8px 8px;
+    width: 710px;
+}
+.headaudio div.audio {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 2px;
+    height: 40px;
+    position: relative;
+    width: 404px;
+}
+.headaudio div.audio span {
+    display: inline-block;
+    left: 10px;
+    position: absolute;
+    top: 11px;
+}
+.headaudio div.audio object {
+    left: 105px;
+    position: absolute;
+    top: 10px;
+}
+.leftTeachers .introduce h3 {
+    color: #444;
+    font-size: 18px;
+    margin-top: 22px;
+}
+.leftTeachers .introduce p {
+    color: #777;
+    font-size: 14px;
+    line-height: 24px;
+}
+.lingsjk {
+    background: #ddd none repeat scroll 0 0;
+    height: 1px;
+    margin: 35px 0;
+    width: 710px;
+}
+.leftTeachers .course ul {
+    background: #f6f6f6 none repeat scroll 0 0;
+    margin: 20px 0 30px;
+    padding: 10px 25px 25px 20px;
+}
+.leftTeachers .course ul li {
+    border-bottom: 1px dashed #ccc;
+    padding: 12px 0;
+}
+.leftTeachers .course ul li a {
+    color: #2497cd;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.leftTeachers .course ul li span {
+    color: #777;
+    font-size: 14px;
+    margin-right: 50px;
+}
+.leftTeachers .course ul li a.buttons {
+    background: #2497cd none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 40px;
+    text-align: center;
+    width: 110px;
+}
+.leftTeachers .estimate {
+    overflow: hidden;
+}
+.estimate .score {
+    border-bottom: 1px solid #ededed;
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+.estimate .score .pop {
+    background: rgba(0, 0, 0, 0) url("../../common/images/icon.png") no-repeat scroll -451px -4px;
+    border: medium none;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 36px;
+    height: 62px;
+    padding: 10px;
+    width: 68px;
+}
+.score dl {
+    float: left;
+    padding: 20px 0 0 20px;
+}
+.score dt {
+    color: #0f76a9;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.discuss {
+    background: #2596cd none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    font-size: 22px;
+    margin-top: 30px;
+    padding: 5px 0;
+    text-align: center;
+    width: 160px;
+}
+.infomation {
+    margin-bottom: 14px;
+}
+.infomation .figure {
+    float: left;
+    margin: 0;
+}
+.figure span {
+    display: block;
+    padding: 5px 0;
+    text-align: center;
+}
+.infomation .section {
+    background: #fafafa none repeat scroll 0 0;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-left: 100px;
+    padding: 10px;
+    width: 588px;
+}
+.infomation .section em {
+    border-bottom: 1px solid #e6e6e6;
+    display: block;
+    padding: 10px 0;
+    position: relative;
+}
+.star5 {
+    background: rgba(0, 0, 0, 0) url("../images/star.jpg") no-repeat scroll 0 0;
+    width: 73px;
+}
+.star5 {
+    display: block;
+    height: 13px;
+}
+.pop10 {
+    top: 10px;
+}
+.popl {
+    background: rgba(0, 0, 0, 0) url("../../common/images/ico.png") no-repeat scroll -11px -70px;
+    height: 11px;
+    left: -15px;
+    position: absolute;
+    width: 6px;
+}
+.infomation dt {
+    color: #1285bd;
+}
+.infomation dd {
+    line-height: 2em;
+}
+.paging {
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.paging ul {
+    float: right;
+}
+.paging li {
+    float: left;
+    margin: 0 2px;
+}
+.paging li a {
+    border: 1px solid #ddd;
+    color: #333;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.paging li a:hover {
+    background: #2596cd none repeat scroll 0 0;
+    color: #fff;
+}
+.buttonan {
+    background: #ff6600 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 26px;
+    height: 52px;
+    line-height: 52px;
+    margin: 0 auto;
+    text-align: center;
+    width: 260px;
+}
+.rightTeachers {
+    float: right;
+    width: 220px;
+}
+.rightTeachers .portrait {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+.rightTeachers .portrait2 {
+    padding-bottom: 0;
+}
+.rightTeachers .portrait p.ptimg {
+    height: 160px;
+    margin-bottom: 15px;
+    width: 160px;
+}
+.rightTeachers .portrait strong {
+    color: #777;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+}
+.rightTeachers .portrait span {
+    background: #fef6ce none repeat scroll 0 0;
+    border: 1px solid #ead483;
+    border-radius: 2px;
+    color: #817031;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 10px 0 0;
+    padding: 4px 10px;
+}
+.rightTeachers .data {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 22px;
+    padding-bottom: 18px;
+}
+.rightTeachers .data i {
+    display: inline-block;
+    height: 18px;
+    margin-right: 5px;
+    width: 18px;
+}
+.rightTeachers .data span {
+    color: #777;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.rightTeachers .data p {
+    color: #1995dd;
+    font-size: 24px;
+}
+.rightTeachers .data em {
+    display: block;
+    margin-top: 10px;
+    width: 220px;
+}
+.spreadt {
+    color: #333;
+    font-size: 26px;
+    overflow: hidden;
+}
+.spreadt a {
+    color: #2a93d5;
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    line-height: 40px;
+}
+.spreadt a:hover {
+    text-decoration: underline;
+}
+.twoface_detail_main_list {
+    display: none;
+}
+.twoface_detail_main_list.on {
+    display: block;
+}
+.twoface_detail_main_list_01 {
+    padding: 8px 0 40px;
+}
+.twoface_detail_main_intro {
+    padding-top: 22px;
+}
+.twoface_detail_main_intro h1 {
+    color: #2a93d5;
+    font-size: 18px;
+    line-height: 1em;
+    padding-bottom: 8px;
+}
+.twoface_detail_main_intro p {
+    color: #777;
+    font-size: 15px;
+    line-height: 26px;
+}
+.twoface_detail_main_intro p a, .main_list_02_tit a {
+    color: #2a93d5;
+    text-decoration: underline;
+}
+.main_img_list_box h1 {
+    margin-bottom: 20px;
+}
+.main_img_list_bar {
+    background: #f2f2f2 none repeat scroll 0 0;
+    height: 210px;
+    margin-top: 22px;
+    width: 100%;
+}
+.turn_list {
+    cursor: pointer;
+    height: 100%;
+    width: 24px;
+}
+.turn_left {
+    background: rgba(0, 0, 0, 0) url("../images/turn_left.png") no-repeat scroll center center;
+    float: left;
+}
+.turn_right {
+    background: rgba(0, 0, 0, 0) url("../images/turn_right.png") no-repeat scroll center center;
+    float: right;
+}
+.main_img_list_wrap {
+    float: left;
+    height: 154px;
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+    width: 660px;
+}
+.main_img_list_inner {
+    height: 208px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.twoface_class_list {
+    position: absolute;
+}
+.twoface_class_list {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 6px;
+    display: block;
+    float: left;
+    margin: 0 10px 20px;
+    overflow: hidden;
+    width: 200px;
+}
+.twoface_class_list.mr_none {
+    margin-right: 0;
+}
+.twoface_class_list_img {
+    background: #2a93d5 none repeat scroll 0 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 110px;
+    position: relative;
+    width: 100%;
+}
+.twoface_class_list_img img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.twoface_class_list_img:hover .twoface_class_list_mask {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: block;
+}
+.twoface_class_list_mask {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.twoface_class_list_mask div {
+    background: #389ede none repeat scroll 0 0;
+    border-radius: 14px;
+    color: #fff;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    margin: 46px auto 0;
+    text-align: center;
+    width: 100px;
+}
+.twoface_class_list_mask div:hover {
+    background: #3ba5e8 none repeat scroll 0 0;
+}
+.twoface_class_list h2 {
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 13px 0;
+    text-align: center;
+}
+.twoface_class_list_img .china_people {
+    background: rgba(0, 0, 0, 0) url("../images/china_people_bg.png") no-repeat scroll -2px -2px;
+    height: 49px;
+    left: 15px;
+    position: absolute;
+    top: 0;
+    width: 57px;
+}
+.twoface_class_list_img .english_people {
+    background: rgba(0, 0, 0, 0) url("../images/english_people_bg.png") no-repeat scroll left top;
+    height: 49px;
+    left: 15px;
+    position: absolute;
+    top: 0;
+    width: 57px;
+}
+.twoface_class_list_img .english_people span {
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 2px 0 0 4px;
+}
+.twoface_class_list_img .china_english_people {
+    background: rgba(0, 0, 0, 0) url("../images/china_english_people_bg.png") no-repeat scroll left top;
+    height: 48px;
+    left: 15px;
+    position: absolute;
+    top: 0;
+    width: 60px;
+}
+.twoface_class_list_img .china_english_people span {
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 4px;
+    text-align: center;
+    width: 100%;
+}
+.vipcourse_p {
+    text-align: center;
+}
+.vipcourse_a, .vipcourses_a {
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin: 30px 15px 0;
+    text-align: center;
+    width: 180px;
+}
+.vipcourses_a {
+    background: #2a93d5 none repeat scroll 0 0;
+}
+.vipcourses_a:hover {
+    background: #2fa0e7 none repeat scroll 0 0;
+    color: #fff;
+}
+.vipcourse_a {
+    background: #f1771e none repeat scroll 0 0;
+}
+.vipcourse_a:hover {
+    background: #ff6800 none repeat scroll 0 0;
+    color: #fff;
+}
